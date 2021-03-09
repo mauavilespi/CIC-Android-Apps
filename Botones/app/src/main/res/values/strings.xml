@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Botones</string>
+    <string name="btnOptionOne_Text">Opción 1</string>
+    <string name="btnOptionTwo_Text">Opción 2</string>
+    <string name="btnOptionThree_Text">Opción 3</string>
+    <string name="btnOptionFour_Text">Opción 4</string>
+</resources>

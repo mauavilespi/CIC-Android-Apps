@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EAEBEF"
+    tools:context=".MainActivity">
+
+    <!--Peso = Altura / Suma_Weight
+        Peso = 1920 / 4 = 480 px
+        Altura de un widget = Weight * Peso
+    -->
+
+    <Button
+        android:id="@+id/btnOptionOne"
+        style="@style/TextAppearance.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0.25"
+        android:onClick="onClick"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:tag="opción uno"
+        android:text="@string/btnOptionOne_Text"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnOptionTwo"
+        style="@style/TextAppearance.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0.25"
+        android:onClick="onClick"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:tag="opción dos"
+        android:text="@string/btnOptionTwo_Text"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnOptionThree"
+        style="@style/TextAppearance.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0.25"
+        android:onClick="onClick"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:tag="opción tres"
+        android:text="@string/btnOptionThree_Text"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnFondo"
+        style="@style/TextAppearance.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0.25"
+        android:backgroundTint="#EAEBEF"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+</LinearLayout>
