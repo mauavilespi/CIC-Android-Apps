@@ -55,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
             imageViewFondo.setTag("img1");
         }*/
     }
-
+    
+    //Lo visto en clase
     public Drawable getImageByString (String strNombreImagen){
         int intImagenID = getResources().getIdentifier(strNombreImagen, "drawable", getPackageName());
         return ResourcesCompat.getDrawable(getResources(), intImagenID, null);
